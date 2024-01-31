@@ -26,6 +26,8 @@ La aplicación emplea tecnologías web modernas y almacena los datos localmente 
 
 ## Instrucciones de Uso
 
+Video-Tutorial: https://www.youtube.com/watch?v=n2MYgPjFNG8
+
 ### Requisitos Previos
 
 - Asegúrate de tener [Node.js](https://nodejs.org/) instalado en tu sistema.
