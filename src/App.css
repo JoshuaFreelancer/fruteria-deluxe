@@ -1,0 +1,68 @@
+/* Importaciones */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
+
+/* Estilos para Loader */
+
+@keyframes moveUpStart {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes moveDownStart {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+.animate-moveUpStart {
+  animation: moveUpStart 3s forwards;
+  animation-delay: 3s; /* Retraso de 3 segundos antes de que comience la animación */
+}
+
+.animate-moveDownStart {
+  animation: moveDownStart 3s forwards;
+  animation-delay: 3s; /* Retraso de 3 segundos antes de que comience la animación */
+}
+
+@keyframes moveUp {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-185%);
+    opacity: 0;
+  }
+}
+
+@keyframes moveDown {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(185%);
+    opacity: 0;
+  }
+}
+
+.animate-moveUp {
+  animation: moveUp 3s forwards;
+  animation-delay: 3s; /* Retraso de 3 segundos antes de que comience la animación */
+}
+
+.animate-moveDown {
+  animation: moveDown 3s forwards;
+  animation-delay: 3s; /* Retraso de 3 segundos antes de que comience la animación */
+}
