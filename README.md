@@ -24,10 +24,6 @@ La aplicación emplea tecnologías web modernas y almacena los datos localmente 
 
 - **Local Storage:** La aplicación utiliza el almacenamiento local del navegador para persistir los datos del inventario incluso después de cerrar la página.
 
-## Instrucciones de Uso
-
-Video-Tutorial: https://www.youtube.com/watch?v=n2MYgPjFNG8
-
 ### Requisitos Previos
 
 - Asegúrate de tener [Node.js](https://nodejs.org/) instalado en tu sistema.
